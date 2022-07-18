@@ -1,0 +1,82 @@
+.contacto__boton {
+    width: 133px;
+    height: 40px;
+    background: #2A7AE4;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.contacto__input-titulo {
+    margin: 8px 0 0 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+}
+
+.contacto__input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    border: none;
+    outline: none;
+}
+
+.contacto__mensaje {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A2A2A2;
+    padding: 16px 12px;
+    border: none;
+    height: calc(82px - 32px);
+    margin-bottom: 16px;
+}
+
+.contacto__nombre {
+    background: #FFFFFF;
+    height: 56px;
+    padding-left: 12px;
+    margin-bottom: 16px;
+}
+
+.contacto__titulo {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-bottom: 16px;
+}
+
+.contacto {
+    display: flex;
+}
+
+.contacto__mensaje{
+    resize: none;
+}
+
+/*Responsive*/
+
+@media screen and (min-width: 0px) {
+    .contacto {
+        width: calc(360px - 32px);
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacto {
+        width: 434px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .contacto {
+        width: 556px;
+    }
+}

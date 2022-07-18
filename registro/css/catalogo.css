@@ -1,0 +1,33 @@
+.catalogo {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .catalogo {
+        padding-top: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .catalogo {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .catalogo {
+        padding-top: 64px;
+        padding-left: 152px;
+        padding-right: 152px;
+    }
+}

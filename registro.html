@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-windth initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Registro | E-COMMERCE</title>
+        <link rel="icon" href="registro/img/Vector1.png" type="image/icon type">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2d82ec220f.js" crossorigin="anonymous"></script>
+        <link href="./registro/css/normalize.css" rel="stylesheet">
+        <link href="./registro/css/reset.css" rel="stylesheet">
+        <link href="./registro/css/header.css" rel="stylesheet">
+        <link href="./registro/css/estilos.css" rel="stylesheet">
+        <link href="./registro/css/cabecera.css" rel="stylesheet">
+        <link href="./registro/css/box-search.css" rel="stylesheet">  
+        <link href="./registro/css/registro.css" rel="stylesheet">
+        <link href="./registro/css/rodapie-informacion.css" rel="stylesheet">
+        <link href="./registro/css/informacion.css" rel="stylesheet">
+        <link href="./registro/css/contacto.css" rel="stylesheet">
+        <link href="./registro/css/footer.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecera">
+            <div class="cabecera__contenido">
+                <div class="cabecera__tool">
+                    <a href="index.html"><img src="./registro/img/Logo.png" alt="Logo ecomerce" class="cabecera__logo"></a>
+                    <div class="box-search">
+                        <input type="text" class="box-search__input" placeholder="¿Qué deseas buscar?">
+                        <button type="submit" class="box-search__boton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+                <a href="login.html" class="boton cabecera__boton">Menú Administrador</a>
+                <button type="submit" class="cabecera__boton-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </header>
+        <main>
+            <section class="registro container">
+                <div class="registro__contenido">
+                    <h3 class="registro__titulo">Agregar nuevo producto</h3>
+                    <div class="registro__input">
+                        <p class="input__title">URL de la imagen</p>
+                        <input type="text" class="input__text">
+                    </div>
+                    <div class="registro__input">
+                        <p class="input__title">Categoría</p>
+                        <input type="text" class="input__text">
+                    </div>
+                    <div class="registro__input">
+                        <p class="input__title">Nombre del producto</p>
+                        <input type="text" class="input__text">
+                    </div>
+                    <div class="registro__input">
+                        <p class="input__title">Precio del produtco</p>
+                        <input type="text" class="input__text">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" class="registro__descripcion" placeholder="Descripción del producto"></textarea>
+                    <button class="registro__boton">Agregar Producto</button>
+                </div>
+            </section>
+            <footer class="footer container">
+                <section class="rodapie-informacion container">
+                    <div class="rodapie-informacion__contenido">
+                        <div class="informacion">
+                            <img src="./registro/img/Logo.png" alt="Logo de la empresa" class="informacion__logo">
+                            <nav class="informacion__menu">
+                                <ul class="informacion__lista">
+                                    <li class="informacion__item"><a href="" class="informacion__link">Quienes somos</a></li>
+                                    <li class="informacion__item"><a href="" class="informacion__link">Política de privacidad</a></li>
+                                    <li class="informacion__item"><a href="" class="informacion__link">Programa de fidelidad</a></li>
+                                    <li class="informacion__item"><a href="" class="informacion__link">Nuestras Tiendas</a></li>
+                                    <li class="informacion__item"><a href="" class="informacion__link">Quiero ser franquiciado</a></li>
+                                    <li class="informacion__item"><a href="" class="informacion__link">Anúncie aquí</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="contacto">
+                            <h4 class="contacto__titulo">Hable con nosotros</h4>
+                            <div class="contacto__nombre">
+                                <p class="contacto__input-titulo">Nombre</p>
+                                <input type="text" class="contacto__input">
+                            </div>
+                            <textarea name="" class="contacto__mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                            <button class="contacto__boton">Enviar mensaje</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="footer__by">
+                    <p class="footer__texto">Desarrollado por Jorge Paredes &copy Copyrigth - 2022</p>
+                    <img id="logo2" src="registro/img/jj3.png">
+                </section>
+            </footer>
+        </main>
+    </body>
+</html>

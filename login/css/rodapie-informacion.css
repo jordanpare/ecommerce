@@ -1,0 +1,28 @@
+.rodapie-informacion {
+    background: #EAF2FD;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.rodapie-informacion__contenido {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie-informacion__contenido {
+        flex-direction: row;
+        padding: 32px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .rodapie-informacion__contenido {
+        width: 1136px;
+    }
+}

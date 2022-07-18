@@ -1,0 +1,19 @@
+.cabecera {
+    align-items: center;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 0) {
+    .cabecera {
+        justify-content: space-around;
+        height: 72px;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .cabecera {
+        height: 115px;
+    }
+}

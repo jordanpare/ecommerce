@@ -1,0 +1,11 @@
+.all__productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.productos {
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}

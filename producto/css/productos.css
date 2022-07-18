@@ -1,0 +1,8 @@
+.productos {
+    background:#E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 16px;
+    justify-content: space-between;
+}
+

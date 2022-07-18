@@ -1,0 +1,42 @@
+.box-search__boton {
+    border: none;
+}
+
+.box-search__input {
+    outline: none;
+    border: none;
+}
+
+.box-search {
+    border-radius: 30px;
+}
+
+
+@media screen and (min-width: 0) {
+    .box-search {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .box-search__boton {
+        background: #F5F5F5;
+    }
+    .box-search__input {
+        display: block;
+        background: #F5F5F5;
+        width: 272px;
+    }
+    .box-search {
+        display: flex  ;
+        padding: 0.7rem;
+        background: #F5F5F5;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .box-search__input {
+        width: 393px;    
+    }
+}
+

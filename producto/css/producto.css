@@ -1,0 +1,124 @@
+.productos__boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: #2A7AE4;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+
+.producto__descripcion {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin: 8px 0;
+}
+
+.producto__serie {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    margin: 0;
+}
+
+.producto__imagen {
+    width: 100%;
+    height: 174px;
+}
+
+.producto__titulo {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+
+.productos__titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin: 2% 0;
+}
+
+.producto__boton {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.producto {
+    width: 156px;
+    height: 249px;
+    margin-bottom: 16px;
+    transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+}
+
+.producto:hover{
+	box-shadow: 4px 4px 4px #CCC;
+}
+
+.productos__contenido {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.productos__top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+/*responsive*/
+
+@media screen and (min-width: 768px) {
+    .producto {
+        width: 164px;
+        height: 252px;
+    }
+    .productos__contenido {
+        width: 90%;
+    }
+    .productos__top {
+        font-size: 32px;
+        line-height: 38px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .producto {
+        width: 176px;
+        height: 252px;
+        margin-bottom: 64px;
+    }
+    .productos__boton {
+        width: 163px;
+        height: 51px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .productos__contenido {
+        width: 1136px;
+    }
+    .productos__top {
+        margin-top: 64px;
+    }
+}
