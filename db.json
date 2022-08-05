@@ -1,0 +1,39 @@
+{
+  "producto": [
+    {
+      "nombre": "Producto XYZ",
+      "imagenUrl": "https://www.infobae.com/new-resizer/fbCTpvxHzwM-7FMZdSUbuNgLE9M=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/Q6ZJ5SAP5VEXZDHSSNKBVCL5AE.png",
+      "precio": "100$",
+      "id": 1,
+      "caregoria": "Consolas",
+      "descripcion": "descrpcion del producto"
+    },
+    {
+      "nombre": "Aladino",
+      "imagenUrl": "https://www.infobae.com/new-resizer/fbCTpvxHzwM-7FMZdSUbuNgLE9M=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/Q6ZJ5SAP5VEXZDHSSNKBVCL5AE.png",
+      "precio": "111$",
+      "descripcion": "descrpcion del producto",
+      "id": 2
+    },
+    {
+      "nombre": "Super Man",
+      "imagenUrl": "https://http.cat/304",
+      "precio": "111$",
+      "descripcion": "descrpcion del producto",
+      "id": 3
+    },
+    {
+      "nombre": "Ete",
+      "imagenUrl": "https://www.infobae.com/new-resizer/_Yk6HnfV6JO0BUshv3kjOnq6VaY=/992x441/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/SP7FS6ANUVFMPNAOJXIDEZAEIY.webp",
+      "precio": "111$",
+      "descripcion": "descrpcion del producto",
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ]
+}

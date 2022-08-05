@@ -2,7 +2,8 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-windth initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<meta name="viewport" content="width=device-windth initial-scale=1.0">-->
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Home | E-COMMERCE</title>
         <link rel="icon" href="principal/img/Vector1.png" type="image/icon type">
@@ -24,7 +25,7 @@
         <link href="./principal/css/rodapie-informacion.css" rel="stylesheet">
         <link href="./principal/css/informacion.css" rel="stylesheet">
         <link href="./principal/css/contacto.css" rel="stylesheet">
-        <link href="./principal/css/footer/footer-by.css" rel="stylesheet">
+        
     </head>
     <body>
         <header class="cabecera">
@@ -56,16 +57,16 @@
                         <h2 class="line-producto__titulo">Star Wars</h2>
                         <a href="productos.html" class="linea-producto__boton">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
-                    <div class="productos">
-                        <div class="producto">
-                            <img alt="Foto imagen Start Wars" class="producto__imagen" src="./principal/img/unsplash_100.png" />
+                    <div class="productos" datos-productos>
+                        <!--<div class="producto" datos-productos>
+                        <img alt="Foto imagen Start Wars" class="producto__imagen" src="./principal/img/unsplash_100.png" />
                             <div class="producto__contenido">
-                                <h4 class="producto__titulo">Producto XYZ</h4>
+                            <h4 class="producto__titulo">Producto XYZ</h4>
                                 <p class="producto__descripcion">$ 60,00</p>
                                 <a href="producto.html" class="producto__boton">Ver producto</a>
                             </div>
-                        </div>
-                        <div class="producto">
+                        </div>-->
+                    <!--<div class="producto" datos-productos>
                             <img alt="Foto imagen Start Wars" class="producto__imagen" src="./principal/img/unsplash_101.png" />
                             <div class="producto__contenido">
                                 <h4 class="producto__titulo">Producto XYZ</h4>
@@ -104,10 +105,10 @@
                                 <p class="producto__descripcion">$ 60,00</p>
                                 <a href="producto.html" class="producto__boton">Ver producto</a>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
-                <div class="linea-producto">
+            <!--<div class="linea-producto">
                     <div class="linea-producto__top">
                         <h2 class="line-producto__titulo">Consolas</h2>
                         <a href="productos.html" class="linea-producto__boton">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
@@ -120,8 +121,8 @@
                                 <p class="producto__descripcion">$ 60,00</p>
                                 <a href="producto.html" class="producto__boton">Ver producto</a>
                             </div>
-                        </div>
-                        <div class="producto">
+                        </div>-->
+                    <!--<div class="producto">
                             <img alt="Foto imagen Start Wars" class="producto__imagen" src="./principal/img/unsplash_107.png" />
                             <div class="producto__contenido">
                                 <h4 class="producto__titulo">Producto XYZ</h4>
@@ -162,8 +163,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="linea-producto">
+                </div>-->
+            <!--<div class="linea-producto">
                     <div class="linea-producto__top">
                         <h2 class="line-producto__titulo">Diversos</h2>
                         <a href="productos.html" class="linea-producto__boton">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
@@ -176,8 +177,8 @@
                                 <p class="producto__descripcion">$ 60,00</p>
                                 <a href="producto.html" class="producto__boton">Ver producto</a>
                             </div>
-                        </div>
-                        <div class="producto">
+                        </div>-->
+                    <!--<div class="producto">
                             <img alt="Foto imagen Start Wars" class="producto__imagen" src="./principal/img/unsplash_113.png" />
                             <div class="producto__contenido">
                                 <h4 class="producto__titulo">Producto XYZ</h4>
@@ -218,7 +219,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </section>
             <footer class="footer container">
                 <section class="rodapie-informacion container">
@@ -253,5 +254,7 @@
                 </section>
             </footer>
         </main>
+        <script type="module" src="./servicios/productos-servicios.js"></script>
+        <script type="module" src="./controllers/productos-controller.js"></script>
     </body>
 </html>

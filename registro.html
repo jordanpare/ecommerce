@@ -2,7 +2,8 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-windth initial-scale=1.0">
+        <!--<meta name="viewport" content="width=device-windth initial-scale=1.0">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Registro | E-COMMERCE</title>
         <link rel="icon" href="registro/img/Vector1.png" type="image/icon type">
@@ -36,27 +37,29 @@
         </header>
         <main>
             <section class="registro container">
-                <div class="registro__contenido">
-                    <h3 class="registro__titulo">Agregar nuevo producto</h3>
+            <!--<div class="registro__contenido" data-formulario>-->
+                <form class="registro__contenido" data-form> 
+                    <h3 class="registro__titulo">Agregar nuevo producto</h3>   
                     <div class="registro__input">
                         <p class="input__title">URL de la imagen</p>
-                        <input type="text" class="input__text">
+                        <input type="text" class="input__text" required data-url>
                     </div>
                     <div class="registro__input">
                         <p class="input__title">Categoría</p>
-                        <input type="text" class="input__text">
+                        <input type="text" class="input__text" required data-categoria>
                     </div>
                     <div class="registro__input">
                         <p class="input__title">Nombre del producto</p>
-                        <input type="text" class="input__text">
+                        <input type="text" class="input__text" required data-nombre>
                     </div>
                     <div class="registro__input">
                         <p class="input__title">Precio del produtco</p>
-                        <input type="text" class="input__text">
+                        <input type="text" class="input__text" required data-precio>
                     </div>
-                    <textarea name="" id="" cols="30" rows="10" class="registro__descripcion" placeholder="Descripción del producto"></textarea>
-                    <button class="registro__boton">Agregar Producto</button>
-                </div>
+                    <textarea name="" id="" cols="30" rows="10" class="registro__descripcion" placeholder="Descripción del producto" required data-descripcion></textarea>
+                    <button type="submit" class="registro__boton">Agregar Producto</button>
+            <!--</div>-->
+                </form>
             </section>
             <footer class="footer container">
                 <section class="rodapie-informacion container">
@@ -91,5 +94,9 @@
                 </section>
             </footer>
         </main>
+        <!--<script type="module" src="./servicios/productos-servicios.js"></script>
+        <script type="module" src="./controllers/productos-controller.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="module" src="./controllers/crear-productos-controller.js"></script>
     </body>
 </html>
