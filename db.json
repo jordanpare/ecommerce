@@ -6,34 +6,88 @@
       "precio": "100$",
       "id": 1,
       "caregoria": "Consolas",
-      "descripcion": "descrpcion del producto"
+      "descripcion": "descripcion del producto"
     },
     {
-      "nombre": "Aladino",
-      "imagenUrl": "https://www.infobae.com/new-resizer/fbCTpvxHzwM-7FMZdSUbuNgLE9M=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/Q6ZJ5SAP5VEXZDHSSNKBVCL5AE.png",
-      "precio": "111$",
-      "descripcion": "descrpcion del producto",
+      "nombre": "YODA",
+      "categoria": "Muñeco",
+      "precio": "100$",
+      "imagenUrl": "https://cnnespanol.cnn.com/wp-content/uploads/2021/07/baby-yoda-the-child-mandalorian.png",
+      "descripcion": "Yoda varios colores",
       "id": 2
     },
     {
       "nombre": "Super Man",
-      "imagenUrl": "https://http.cat/304",
-      "precio": "111$",
-      "descripcion": "descrpcion del producto",
+      "categoria": "Consolas",
+      "precio": "9999$",
+      "imagenUrl": "data:image/jpeg;base64,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",
+      "descripcion": "de los 80",
       "id": 3
     },
     {
-      "nombre": "Ete",
-      "imagenUrl": "https://www.infobae.com/new-resizer/_Yk6HnfV6JO0BUshv3kjOnq6VaY=/992x441/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/SP7FS6ANUVFMPNAOJXIDEZAEIY.webp",
+      "nombre": "Nintendo new",
+      "categoria": "undefined",
       "precio": "111$",
-      "descripcion": "descrpcion del producto",
+      "imagenUrl": "https://img2.freepng.es/20180509/uee/kisspng-video-game-consoles-xbox-360-playstation-4-5af2f1c26cc157.9861282015258710424455.jpg",
+      "descripcion": "descripcion del producto",
       "id": 4
     },
     {
-      "id": 5
+      "nombre": "Nintendo64",
+      "categoria": "Consolas",
+      "precio": "9999$",
+      "imagenUrl": "https://phantom-elmundo.unidadeditorial.es/e4869b7b702c19fdb1f0b68cdcb4e3fe/resize/700/f/webp/assets/multimedia/imagenes/2021/06/25/16246083875832.jpg",
+      "descripcion": "Para niños chiquitos y grandes",
+      "id": "a9b70081-b2bc-46f7-91b4-c8b8a2eb9099"
     },
     {
-      "id": 6
+      "nombre": "Mario 2",
+      "imagenUrl": "https://e7.pngegg.com/pngimages/574/181/png-clipart-video-game-consoles-super-mario-64-super-mario-bros-2-nintendo-64-mario-bros-gadget-nintendo.png",
+      "precio": "655$",
+      "descripcion": "Cartucho varios juegos en uno",
+      "id": "cec71b62-d656-48ed-b5c1-8da947af3f5a"
+    },
+    {
+      "nombre": "Sonic",
+      "imagenUrl": "https://http2.mlstatic.com/D_NQ_NP_981152-MLA50078780131_052022-V.jpg",
+      "precio": "2782$",
+      "descripcion": "Super sonic",
+      "id": "d9aaab58-7c9b-44fb-bf6c-f437c68057ad"
+    },
+    {
+      "nombre": "Buzz Lightyear",
+      "imagenUrl": "https://i.pinimg.com/originals/0a/64/43/0a6443153dc2414ca9663f86f8658d7c.png",
+      "precio": "4321$",
+      "descripcion": "El de toy story",
+      "id": "44f03424-8ca3-4a3e-96ca-709dc07267e2"
+    },
+    {
+      "nombre": " Nintendo 64 Wii",
+      "imagenUrl": "https://e7.pngegg.com/pngimages/846/631/png-clipart-gamecube-controller-nintendo-64-wii-playstation-2-gaming-electronics-gadget-thumbnail.png",
+      "precio": "99987$",
+      "descripcion": "wii",
+      "id": "bb204693-cbc1-4344-a5d8-ab1e761f8cde"
+    },
+    {
+      "nombre": "Street Fighter V",
+      "imagenUrl": "https://e7.pngegg.com/pngimages/738/700/png-clipart-street-fighter-v-playstation-4-minecraft-video-games-playstation-electronics-playstation-4.png",
+      "precio": "2321$",
+      "descripcion": "muy bueno juegos",
+      "id": "de6ec73b-50f8-45f8-b508-f8aed634a44c"
+    },
+    {
+      "nombre": "Spider-Man M M",
+      "imagenUrl": "https://sm.ign.com/ign_latam/gallery/m/marvels-sp/marvels-spider-man-miles-morales-ps5-box-art_6cqe.jpg",
+      "precio": "6754$",
+      "descripcion": "Spider-Man: Miles Morales",
+      "id": "edb766cc-9fdd-451f-a5c2-92ec14c18a90"
+    },
+    {
+      "nombre": "TetrX",
+      "imagenUrl": "https://www.infobae.com/new-resizer/v7BGSfVB17m0mXvpc_kguZCXb98=/992x558/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/Y2VD6WMIEJA6HPKGRI2P3HYEOI.jpg",
+      "precio": "11212$",
+      "descripcion": "Juego de manos",
+      "id": "93750fc5-8b58-4458-94e3-a80410701a34"
     }
   ]
 }

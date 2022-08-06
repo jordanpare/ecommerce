@@ -2,7 +2,8 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-windth, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-windth, initial-scale=1.0">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Productos | E-COMMERCE</title>
         <link rel="icon" href="productos/img/Vector1.png" type="image/icon type">
@@ -14,10 +15,8 @@
         <link href="./productos/css/estilos.css" rel="stylesheet">
         <link href="./productos/css/cabecera.css" rel="stylesheet">
         <link href="./productos/css/box-search.css" rel="stylesheet">
-     
         <link href="./productos/css/productos.css" rel="stylesheet">
-        <link href="./productos/css/producto.css" rel="stylesheet">
-             
+        <link href="./productos/css/producto.css" rel="stylesheet">   
         <link href="./productos/css/rodapie-informacion.css" rel="stylesheet">
         <link href="./productos/css/informacion.css" rel="stylesheet">    
         <link href="./productos/css/contacto.css" rel="stylesheet">
@@ -43,8 +42,8 @@
                         <h2 class="productos__titulo">Todos los produtos</h2>
                         <a href="registro.html" class="productos__boton">Agregar productos</a>
                     </div>
-                    <div class="all__productos">
-                        <div class="producto">
+                    <div class="all__productos" datos-productos>
+                    <!--<div class="producto">
                             <img alt="Foto imagen Start Wars" class="producto__imagen" src="./productos/img/unsplash_100.png" />
                             <div class="category__edition">
                                 <a class="edition__icon category__product-edit" href="./registro.html"><i class="fa-solid fa-pen-to-square"></i></a>
@@ -259,7 +258,7 @@
                                 <p class="producto__descripcion">$ 60,00</p>
                                 <p class="producto__serie">#1111111</p>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </section>
@@ -296,5 +295,7 @@
                 </section>
             </footer>
         </main>
+        <script type="module" src="./servicios/productos-servicios.js"></script>
+        <script type="module" src="./controllers/productos-edicion-controller.js"></script>
     </body>
 </html>

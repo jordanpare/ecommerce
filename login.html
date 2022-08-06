@@ -2,27 +2,22 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-windth initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Login | E-COMMERCE</title>
         <link rel="icon" href="login/img/Vector1.png" type="image/icon type">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/2d82ec220f.js" crossorigin="anonymous"></script>
-        
+        <script src="https://kit.fontawesome.com/2d82ec220f.js" crossorigin="anonymous"></script>        
         <link href="./login/css/normalize.css" rel="stylesheet">
         <link href="./login/css/reset.css" rel="stylesheet">
         <link href="./login/css/header.css" rel="stylesheet">
-        <link href="./login/css/estilos.css" rel="stylesheet">
-        
+        <link href="./login/css/estilos.css" rel="stylesheet">        
         <link href="./login/css/box-search.css" rel="stylesheet">
-        <link href="./login/css/cabecera.css" rel="stylesheet">
-        
+        <link href="./login/css/cabecera.css" rel="stylesheet">        
         <link href="./login/css/login.css" rel="stylesheet">       
-        <link href="./login/css/rodapie-informacion.css" rel="stylesheet">  
-
+        <link href="./login/css/rodapie-informacion.css" rel="stylesheet">
         <link href="./login/css/informacion.css" rel="stylesheet">
-        <link href="./login/css/contacto.css" rel="stylesheet">
-        
+        <link href="./login/css/contacto.css" rel="stylesheet">        
         <link href="./login/css/footer.css" rel="stylesheet">
     </head>
     <body>
@@ -41,12 +36,12 @@
             </div>
         </header>
         <main>
-            <section class="login container">
+            <section class="login container login">
                 <div class="login__contenido">
                     <h3 class="login__titulo">Iniciar Sesión</h3>
-                    <input type="text" class="login__text-input" placeholder="Escriba su correo electrónico">
-                    <input type="text" class="login__text-input" placeholder="Escriba su contraseña">
-                    <button class="login__boton">Entrar</button>
+                    <input id="email" name="email" type="email" class="login__text-input" placeholder="Escriba su correo electrónico" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" title="Ingrese un correo válido">
+                    <input id="password" name="password" type="password" class="login__text-input" placeholder="Escriba su contraseña" required>
+                    <button id="login" class="login__boton" type="submit">Entrar</button>
                 </div>
             </section>
             <footer class="footer container">
@@ -82,5 +77,6 @@
                 </section>
             </footer>
         </main>
+        <script src="/servicios/login.js"></script>
     </body>
 </html>
